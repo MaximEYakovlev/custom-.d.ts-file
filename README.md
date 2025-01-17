@@ -1,16 +1,25 @@
-# TypeScript Declaration Example
+# Custom `.d.ts` File Example
 
-This repository demonstrates how to create and use `.d.ts` files for a JavaScript library in a TypeScript project.
+This repository demonstrates how to create `.d.ts` files for JavaScript modules.
 
-## Overview
+## Structure
+- `src/`: Contains the JavaScript module and its corresponding `.d.ts` file.
+- `examples/`: Demonstrates usage of the module in both JavaScript and TypeScript.
+- `tests/`: Contains tests to validate the `.d.ts` file using `tsd`.
 
-1. A JavaScript library is written in `src/myLibrary.js`.
-2. The TypeScript declaration file (`.d.ts`) is created in `src/myLibrary.d.ts`.
-3. The `example/` folder contains a TypeScript example using the library.
-
-## How to Use
-
+## Getting Started
 1. Clone the repository:
-   ```bash
-   git clone git@github.com:MaximEYakovlev/custom-.d.ts-file.git
-   cd custom-.d.ts-file
+```bash
+git clone git@github.com:MaximEYakovlev/custom-.d.ts-file.git
+cd custom-.d.ts-file
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run type tests:
+```bash
+npm run test:types
+```

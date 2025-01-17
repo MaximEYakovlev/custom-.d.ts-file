@@ -1,0 +1,29 @@
+{
+  "name": "custom-.d.ts-file",
+  "version": "1.0.0",
+  "description": "This repository demonstrates how to create `.d.ts` files for JavaScript modules.",
+  "main": "src/myModule.js",
+  "types": "src/myModule.d.ts",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "test:types": "tsd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximEYakovlev/custom-.d.ts-file.git"
+  },
+  "keywords": [],
+  "author": "Maxim Yakolev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaximEYakovlev/custom-.d.ts-file/issues"
+  },
+  "homepage": "https://github.com/MaximEYakovlev/custom-.d.ts-file#readme",
+  "devDependencies": {
+    "tsd": "^0.31.2",
+    "typescript": "^5.7.3"
+  }
+}
