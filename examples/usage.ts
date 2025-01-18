@@ -1,1 +1,4 @@
-// usage
+import { add, greet } from '../src/myModule';
+
+console.log(add(5, 10)); // 15
+console.log(greet('Max')); // "Hello, Max!"
